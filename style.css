@@ -1,0 +1,484 @@
+html{
+    margin: 0 auto;
+    font-family: 'Inter';
+}
+
+header{
+    display: inline;
+} 
+
+header .webname{
+    font-family: 'Lobster';
+    font-size: 30px;
+    font-weight: normal;
+    margin: 3%;
+    display: inline;
+}
+nav{
+    display: inline;
+}
+nav ul{
+    list-style: none;
+    display: inline;
+    justify-content: space-evenly;
+    width: 40%;
+    margin-left: 15%;
+}
+nav ul li{
+    display: inline;
+    margin: 2%;
+}
+nav ul li a{ 
+    font-family: 'Inter';
+    color: black;
+    text-decoration: none;
+}
+.social_icons{
+    display: inline;
+    margin-top: 2%;
+    margin-left: 13%;
+}
+hr{
+    margin: 2% 0;
+    opacity: 0.3;
+}
+.main{
+    display: flex;
+    background: linear-gradient(0deg,#e0f9ffb8, #E7F9FD00);
+    border-radius: 42px;
+    margin: 3%;
+}
+.maintext{
+    padding: 5% 0 0 5%;
+    margin-right: 20%;
+    width: 40%;
+}
+.hotrecipeslbl{
+    padding: 2%;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    filter: drop-shadow(0px 10px 20px #2940463d);
+}
+.main h1{
+    font-size: 55px;
+    margin: 7% 0 0 0;
+}
+.main p{
+    opacity: 0.7;
+}
+.main .btns{
+    font-size: 80%;
+    background-color: #DBEDF1;
+    padding: 2% 3%;
+    margin: 2%;
+    border: solid 1px #FFFFFF;
+    border-radius: 20px;
+}
+.main .btns img{
+    vertical-align: middle;
+    margin: 1%;
+}
+.main .profile{
+    display: flex;
+    align-items: center;
+    margin-top: 20%;
+    width: 40%;
+}
+.profile_text{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+.profile img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+.profile_text h6{
+    font-size: 100%;
+    margin: 0 8%;
+}
+.profile_text p{
+    margin: 0 8%;
+    width: 150%;
+    font-size: 80%;
+}
+.viewbtn{
+    position: relative;
+    bottom: 10%;
+    left: 78%;
+    padding: 2% 3%;
+    color: #FFFFFF;
+    background-color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+}
+.viewbtn img{
+    vertical-align: middle;
+    filter: invert();
+}
+
+.backimg{
+    width: 40%;
+}
+.categories h3{
+    margin: 5% 0 2% 5%;
+    font-size: 200%;
+    font-weight: 600;
+    display: inline-block;
+}
+.categories button{
+    padding: 1%;
+    position: absolute;
+    top: 107%;
+    right: 7%;
+    background: linear-gradient(0deg,#e0f9ffb8, #E7F9FD00);
+    border: none;
+    border-radius: 20px;
+    font-size: small;
+    font-weight: bold;
+}
+.allcategories{
+    margin: 2% 8%;
+    display: grid;
+    grid-template-columns: 12% 12% 12% 12% 12% 12% ;
+    column-gap: 6%;
+}
+
+.allcategories .breakfast{
+    padding: 0;
+    padding-top: 3%;
+    text-align: center;
+    background: linear-gradient(0deg,#70824623, #70824600);
+    border-radius: 20px;
+    &:hover{
+        border: 2px solid rgb(185, 185, 185);
+        cursor:pointer;
+    }
+}
+.allcategories .vegan{
+    padding: 0;
+    padding-top: 3%;
+    text-align: center;
+    background: linear-gradient(0deg,#6CC63F23, #6CC63F00);
+    border-radius: 20px;
+    &:hover{
+        border: 2px solid rgb(185, 185, 185);
+        cursor:pointer;
+    }
+}
+.allcategories .meat{
+    padding: 0;
+    padding-top: 3%;
+    text-align: center;
+    background: linear-gradient(0deg,#CC261B23, #CC261B00);
+    border-radius: 20px;
+    &:hover{
+        border: 2px solid rgb(185, 185, 185);
+        cursor:pointer;
+    }
+}
+.allcategories .dessert{
+    padding: 0;
+    padding-top: 3%;
+    text-align: center;
+    background: linear-gradient(0deg,#F09E0023, #F09E0000);
+    border-radius: 20px;
+    &:hover{
+        border: 2px solid rgb(185, 185, 185);
+        cursor:pointer;
+    }
+}
+.allcategories .lunch{
+    padding: 0;
+    padding-top: 3%;
+    text-align: center;
+    background: linear-gradient(0deg,#b96a0a23, #b96a0a00);
+    border-radius: 20px;
+    &:hover{
+        border: 2px solid rgb(185, 185, 185);
+        cursor:pointer;
+    }
+}
+.allcategories .chocolate{
+    padding: 0;
+    padding-top: 3%;
+    text-align: center;
+    background: linear-gradient(0deg,#37000023, #37000000);
+    border-radius: 20px;
+    &:hover{
+        border: 2px solid rgb(185, 185, 185);
+        cursor:pointer;
+    }
+}
+.simpletext{
+    margin: 10% 0 8% 30%;
+    width: 40%;
+    text-align: center;
+}
+.simpletext h3{
+    font-size: 200%;
+}
+.simpletext p{
+    opacity: 0.7;
+}
+.items{
+    display: grid;
+    grid-template-columns: 27% 27% 27%;
+    column-gap: 3%;
+    row-gap: 2%;
+    margin-left: 9%;
+}
+.items h5{
+    font-size: 150%;
+    padding-left: 5%;
+    margin: 8% 0;
+}
+.like {
+    position: absolute;
+    top: 2%; /* Adjust to control the vertical offset */
+    right: 5%; /* Adjust to control the horizontal offset */
+    width: 40px; /* Adjust size of the "like" image */
+    cursor: pointer; /* Optional: Adds a pointer cursor */
+  }
+.items .burger{
+    background: linear-gradient(0deg,#e0f9ffb8, #E7F9FD00);
+    padding-bottom: 3%;
+    border-radius: 20px;
+    margin-bottom: 5%;
+    position: relative;
+}
+.items .fish{
+    background: linear-gradient(0deg,#e0f9ffb8, #E7F9FD00);
+    padding-bottom: 3%;
+    border-radius: 20px;
+    margin-bottom: 5%;
+    position: relative;
+}
+.items .cake{
+    background: linear-gradient(0deg,#e0f9ffb8, #E7F9FD00);
+    padding-bottom: 3%;
+    border-radius: 20px;
+    margin-bottom: 5%;
+    position: relative;
+}
+.items .salad{
+    background: linear-gradient(0deg,#e0f9ffb8, #E7F9FD00);
+    padding-bottom: 3%;
+    border-radius: 20px;
+    margin-bottom: 5%;
+    position: relative;
+}
+.items .meatball{
+    background: linear-gradient(0deg,#e0f9ffb8, #E7F9FD00);
+    padding-bottom: 3%;
+    border-radius: 20px;
+    margin-bottom: 5%;
+    position: relative;
+}
+.items .diff{
+    background-image: url(Images/Ads.png);
+    background-size: 100%;
+    padding-bottom: 3%;
+    text-align: center;
+    vertical-align: baseline;
+}
+.items .diff a{
+    color: white;
+}
+.items .orange{
+    background: linear-gradient(0deg,#e0f9ffb8, #E7F9FD00);
+    padding-bottom: 3%;
+    border-radius: 20px;
+    margin-bottom: 5%;
+    position: relative;
+}
+.items .rice{
+    background: linear-gradient(0deg,#e0f9ffb8, #E7F9FD00);
+    padding-bottom: 3%;
+    border-radius: 20px;
+    margin-bottom: 5%;
+    position: relative;
+}
+.items .pasta{
+    background: linear-gradient(0deg,#e0f9ffb8, #E7F9FD00);
+    padding-bottom: 3%;
+    border-radius: 20px;
+    margin-bottom: 5%;
+    position: relative;
+}
+.items label{
+    font-size: 15px;
+    opacity: 0.8;
+}
+.items label img{
+    vertical-align: middle;
+    padding-left: 5%;
+}
+.chef{
+    display: flex;
+    margin: 15% 7%;
+}
+.chef .text{
+    width: 40%;
+    margin-top: 6%;
+}
+.chef .text h5{
+    font-size: 220%;
+    margin: 0 0 4% 0;
+}
+.chef .text p{
+    opacity: 0.7;
+}
+.chef .text button{
+    margin: 15% 0 0 5%;
+    padding: 2% 3%;
+    color: #FFFFFF;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+    &:hover{
+        cursor: pointer;
+        background-color: #E32929;
+    }
+}
+.chef .img{
+    margin-left: 10%;
+}
+.instagram{
+    text-align: center;
+    background: linear-gradient(0deg, #E7F9FD,#E7F9FD00);
+}
+.instagram h4{
+    font-size: 200%;
+}
+.instagram p{
+    width: 60%;
+    opacity: 0.7;
+    margin-left: 22%;
+    margin-bottom: 6%;
+}
+.instagram .posts{
+    margin-left: 8%;
+    display: flex;
+    gap: 2%;
+    margin-bottom: 4%; 
+}
+.instagram button{
+    padding: 1% 2%;
+    color: #FFFFFF;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 6%;
+}
+.instagram button img{
+    filter: invert();
+    vertical-align: middle;
+}
+.tryrecipehead{
+    font-size: 200%;
+    margin: 10% 6% 8% 5%;
+    width: 30%;
+    display: inline-block;
+}
+.tryrecipepara{
+    width: 40%;
+    display: inline-block;
+    opacity: 0.7;
+    text-align: justify;
+}
+.recipes{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    column-gap: 5%;
+    margin-left: 2%;
+    scale: 0.9;
+}
+.tropical_salad{
+    padding-bottom: 3%;
+    border-radius: 20px;
+    margin-bottom: 20%;
+    position: relative;
+}
+.recipes span{
+    font-size: 15px;
+    opacity: 0.8;
+    margin-bottom: 30%; 
+}
+.recipes span img{
+    vertical-align: middle;
+    padding-left: 5%;
+}
+.inbox{
+    margin-left: 2%;
+    margin-bottom: 10%;
+    text-align: center;
+    background-image: url(Images/Mask\ Group.jpg);
+    background-repeat: no-repeat;
+}
+.inbox h4{
+    font-size: 200%;
+    margin-top: 10%;
+    padding-top: 10%;
+}
+.inbox p{
+    width: 50%;
+    margin-left: 25%;
+}
+.inbox input{
+    padding: 1.8% 2.1%;
+    font-size: 100%;
+    margin-top: 2%;
+    width: 35%;
+    border-radius: 12px;
+    border: none;
+    margin-bottom: 8%;
+}
+.inbox button{
+    padding: 1.5% 2.5%;
+    color: #FFFFFF;
+    background-color: black;
+    border: none;
+    border-radius: 15px;
+    position: absolute;
+    top: 832.5%;
+    right: 30%;
+    margin-bottom: 20%;
+}
+footer h5{
+    font-family: 'Lobster';
+    font-size: 30px;
+    font-weight: normal;
+    margin: 3%;
+    margin-top: 9%;
+    display: inline;
+}
+footer p{
+    margin: 3%;
+    display: inline-block;
+}
+.end p{
+    margin-left: 40%;
+    text-align: center;
+    display: inline-block;
+}
+.end p strong{
+    font-weight: normal;
+    color: #fc5e49;
+}
+.social_icons_end{
+    display: inline;
+    margin-top: 2%;
+    margin-left: 30%;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #E32929;
+}
+a:hover{
+    text-decoration: underline;
+}
